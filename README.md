@@ -24,8 +24,6 @@ The project aims to perform a geospatial and trend analysis of Zomato ratings us
 ---
 
 # Technologies Used
-
-> **Libraries:**
 > * Pandas: For data manipulation and analysis.
 > * NumPy: For numerical operations.
 > * Matplotlib and Seaborn: For data visualization.
