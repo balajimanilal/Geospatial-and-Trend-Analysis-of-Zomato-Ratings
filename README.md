@@ -2,22 +2,22 @@
 
 The project aims to perform a geospatial and trend analysis of Zomato ratings using a dataset of restaurant reviews and ratings. The analysis involves data cleaning, transformation, and visualization to uncover insights about restaurant ratings, types, and review patterns.
 
-**Key Findings**
+# Key Findings
 
-# Data Cleaning and Transformation:
+**Data Cleaning and Transformation:**
 * Null values in the dataset were identified and managed.
 * The 'rate' column was cleaned by replacing 'NEW' and '-' with NaN and converting the ratings to float type.
 * The dataset was filtered to focus on specific restaurant types, such as 'Quick Bites'.
 
-# Ratings Analysis:
+**Ratings Analysis:**
 * The distribution of ratings was analyzed, and the ratings were normalized to compare the prevalence of online orders across different rating levels.
 * Visualization showed the proportion of online orders for each rating level using stacked bar charts.
 
-# Restaurant Types:
+**Restaurant Types:**
 * The 'rest_type' column was analyzed to understand the distribution of different types of restaurants.
 * The dataset was filtered to focus on 'Quick Bites' restaurants for more detailed analysis.
 
-# Review Text Analysis:
+**Review Text Analysis:**
 * Reviews were tokenized and cleaned to remove stop words.
 * Frequency distributions, bigrams, and trigrams were used to analyze common words and phrases in the reviews.
 
